@@ -35,7 +35,7 @@
 - In the terminal, start the **live development server** so you can get a preview of what the changes you make look like on the website. Run the following commands:
 
     ```bash
-    cd YOUR_GITHUB_USERNAME.github.io
+    cd ~/YOUR_GITHUB_USERNAME.github.io
     npm install
     npm run dev
     ```
@@ -51,6 +51,7 @@
 - After creating or forking your project, run:
 
     ```bash
+    cd ~/YOUR_GITHUB_USERNAME.github.io
     bash setup-github.sh
     ```
 
@@ -59,8 +60,12 @@
 
 ### 4. Commit your changes and push to GitHub
 
-- Once you've made edits to your website, you can save (commit) those changes and then push them to GitHub. Make sure you're in the top-level folder of the repo, i.e. `YOUR_GITHUB_USERNAME.github.io`, and run the following commands:
-
+- Once you've made edits to your website, you can save (commit) those changes and then push them to GitHub. First, we will make sure our `git` is fully configured:
+   ```bash
+    git config --global user.email "REPLACE WITH YOUR GITHUB ACCOUNT EMAIL"
+    git config --global user.name "REPLACE WITH YOUR NAME"
+   ```
+- Make sure you're in the top-level folder of the repo, i.e. `YOUR_GITHUB_USERNAME.github.io`, and run the following commands:
     ```bash
     git add .
     git status
@@ -68,7 +73,6 @@
     git status
     git push
     ```
-
 - Assuming everything goes well, your website should now be uploaded to GitHub.
 
 ### 5. Enable GitHub Pages
