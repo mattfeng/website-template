@@ -44,7 +44,7 @@
     npm install
     npm run dev
     ```
-    - Open the link that is output to the terminal in your browser. You should see the live development server rendering your website.
+    - Open the link that is output to the terminal in your browser (it should be `http://localhost:3000`, although the port number 3000 may be different). You should see the live development server rendering your website.
 - Edit `app/config.js` with your personal information.
 - You can also choose custom fonts to use on the website. [Google Fonts](https://fonts.google.com/) is a reliable source of free fonts to choose from.
 - Edit `app/projects/data.ts` with past projects you'd like to showcase.
