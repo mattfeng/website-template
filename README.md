@@ -68,7 +68,6 @@
     git config --global user.name "REPLACE WITH YOUR NAME"
    ```
 - Make sure you're in the top-level folder of the repo, i.e. `YOUR_GITHUB_USERNAME.github.io`, and run the following commands:
- - Once you've made edits to your website, you can save (commit) those changes and then push them to GitHub. Make sure you're in the top-level folder of the repo, i.e. `YOUR_GITHUB_USERNAME.github.io`, and run the following commands:
     ```bash
     git add .
     git status
