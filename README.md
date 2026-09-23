@@ -106,8 +106,10 @@ Here are some portfolio websites to use as inspiration:
 - https://paco.me/
 - https://andymatuschak.org/
 - https://foliobin.com/
-- https://macwright.com/
 - [https://www.are.na/kelindi/personal-sites-_sxervw2jmu](https://www.are.na/kelindi/personal-sites-_sxervw2jmu)
+- https://macwright.com/
+- https://www.mikes.cv/
+- https://www.arlan.me/
 
 ## Development notes
 
